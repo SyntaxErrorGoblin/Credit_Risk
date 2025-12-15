@@ -1,6 +1,7 @@
 # Notes and documentation
 Notes.docx
 ~$*.docx
+~WRL*.tmp
 *.docx
 
 # CSV Data Dictionary files
@@ -49,6 +50,17 @@ ENV/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+.tmp/
+.temp/
+*.log
+*.bak
+*.cache
 
 # Large data files (download from Kaggle - see README.md)
 accepted_2007_to_2018q4.csv/
